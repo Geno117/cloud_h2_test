@@ -5,3 +5,7 @@ for i in {1..3}; do
 time python run.py $k > results.txt
 done;
 done;
+
+cd
+python results_parser.py
+cat results_parsed.txt
