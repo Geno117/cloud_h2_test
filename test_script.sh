@@ -7,7 +7,7 @@ done;
 done;
 
 
-cp results.txt ./
+cp results.txt ../
 cd
 python results_parser.py
 cat results_parsed.txt
