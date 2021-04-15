@@ -6,6 +6,8 @@ time python run.py $k >> results.txt
 done;
 done;
 
+
+cp results.txt ./
 cd
 python results_parser.py
 cat results_parsed.txt
